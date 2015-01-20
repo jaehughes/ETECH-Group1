@@ -1,0 +1,62 @@
+\documentclass[12pt, oneside]{article}   	
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage[onehalfspacing]{setspace}
+
+\usepackage{graphicx}
+\usepackage[labelfont=bf,font=small,singlelinecheck=false]{caption}
+\usepackage{prettyref}
+\newrefformat{fig}{Figure~\ref{#1}}
+
+%horizontal line
+\newcommand{\HRule}{\rule{\linewidth}{0.25mm}}
+
+\begin{document}
+
+%TITLE PAGE
+\begin{titlepage}
+\begin{center}
+
+\Large{\textsc{Feasibility study}}
+
+\HRule \\[0.35cm]
+{\Huge \bfseries The Monitoring of Crowd Movement\\}
+\HRule 
+
+\small (working title)\\[0.5cm]
+
+\large Omar Amjad, Josie Hughes, Philip Mair, \\ James Manton, Tiesheng Wang\\[1.0cm]
+January 2015\\[1.0cm]
+
+Progress Report\\
+for the MRes ETECH Project\\
+
+\vfill
+
+\end{center}
+\end{titlepage}
+
+\section{Discovery}
+
+We identified three main fields the different stakeholders will be interested in. First, there is the obvious commercial interest. Second, there is an interested in improved customer experience. Third, there may be concerns of data safety and protection. The main stakeholders are grouped according to these fields in \prettyref{fig:fields}, a description of each partaker now follows.
+
+\paragraph{We:} Our company needs to make profit. It will needs to attract customers by offering them value in the form of improved experience for their own customers.
+
+\paragraph{Customer:} The customer will want our product if they can improve the services they offer to make more money. They may be medium to large corporations so they can afford a (currently) non-essential crowd monitoring system. The technology itself is of no interest to them, they are rather interested in the analysed well presented data we gather and offer. 
+
+\paragraph{Crowd:} The crowd we monitor is not directly interacting with us, but is central to the succes of our business. We can convince them of the utility of our products if we their experience is enhanced while we minimally interfere with their general habits. They may want to track their own interactions at, for example, at conferences. A concern the crowd may have is the protection and safety of their personal data. This concern can be preemted by anonymising the data at the point of recording and/or making non-anonymised data only available to the person it belongs to. There is a strong need for transparency about this process to reassure the crowd. Data ownership questions have to be clarified.
+
+\paragraph{Government:} We will need to comply with data protection law and record evidence for doing so, for example on how the data is stored and transferred. There is a potential partnership: In its efforts to improve emergency procedures and policy the government may be interested in our expertise of understanding people's behaviour in large assemblies under stress conditions.
+
+\paragraph{Supplier:} Our suppliers will need us to pay our bills. Again, there is potential for partnerships. For example, a well known supplier partnering with us could increase our credibility building trust among customers. 
+
+\paragraph{Activists:} We may attract the attention of data protection activists.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{./discovery-fields}
+{\captionof{figure}[Text for figure list.]{\label{fig:fields} 
+The interests of each major stakeholder and how they relate to one another are shown.}}
+\end{figure}
+
+\end{document}
